@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Color Picker",
+    "version": "1.0",
+    "permissions": [
+        "contextMenus",
+        "activeTab",
+        "scripting",
+        "tabs"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "images/16.jpg",
+            "48": "images/48.jpg",
+            "128": "images/128.jpg"
+        }
+    }
+}
